@@ -39,6 +39,7 @@ function Home() {
       </div>
 {/* section 2 */}
       <div className='w-100  h-fit py-15 mb-20 flex flex-col gap-20'>
+        <h1 className='text-4xl font-bold text-center'>Agro Family</h1>
         <div className='flex flex-row px-20 items-center justify-between gap-10'>
           <div className='flex flex-row items-center justify-between '>
             <div className='w-[350px] h-[250px] rounded-3xl flex flex-col items-center justify-center P-5 border border-gray gap-2 hover:shadow-md hover:scale-110'>

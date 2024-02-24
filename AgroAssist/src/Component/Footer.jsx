@@ -5,7 +5,7 @@ import React from 'react'
 function Footer() {
     return (
 
-        <div className='w-full h-[280px] bg-black py-8 px-14 shadow-xl'>
+        <div className='w-full h-[280px] bg-green-700 shadow-2xl py-8 px-14 '>
             <footer className="w-full h-full text-white flex flex-col justify-between">
                 <ul className='w-full flex flex-row'>
                     <div className='w-1/2 h-full flex flex-row justify-between'>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import bg from '../assets/bg.jpg'
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -11,8 +11,8 @@ function Login() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen w-100 bg-slate-50">
-      <form className="w-[400px] max-w-md h-400px rounded-xl bg-blue-300 shadow-2xl pt-10 pb-20 items-center p-10 flex-col " onSubmit={handleSubmit}>
+    <div className={`flex justify-center items-center h-screen w-100 bg-[url(${bg})] bg-cover bg-slate-50`}>
+      <form className="w-[400px] max-w-md h-400px rounded-xl bg-green-300 shadow-2xl pt-10 pb-20 items-center p-10 flex-col " onSubmit={location.href='https://agroassist.vercel.app/'}>
         <h1 className='text-4xl text-center mb-6'>Sign In</h1>
         <div className="mb-4 w-100 flex-shrink-0">
           <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
@@ -42,6 +42,7 @@ function Login() {
           <button
             type="submit"
             className=" w-[200px] bg-blue-800 shadow-2xl hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          
           >
             Sign In
           </button>

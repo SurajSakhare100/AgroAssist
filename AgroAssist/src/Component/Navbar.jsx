@@ -5,8 +5,8 @@ import { faAdd, faArrowUpRightDots, faNewspaper, faPhone, faSearch, faSeedling, 
 
 function Navbar() {
     return (
-        <div className='w-full h-[80px] shadow-6xl sticky top-0 z-50'>
-            <nav className="w-full h-full py-2 bg-black text-white p-4">
+        <div className='w-full h-[80px]  sticky top-0 z-50'>
+            <nav className="w-full h-full py-2 bg-green-500 text-white p-4 shadow-2xl">
                 <ul className='w-full h-full flex flex-row items-center justify-between'>
                     <i className="bi bi-bank w-[10px] text-white h-[10px]" ></i>
                     <li><NavLink to="/home" className='text-2xl'>Agro <FontAwesomeIcon icon={faSeedling} className='ml-1 text-xl'/></NavLink></li>
